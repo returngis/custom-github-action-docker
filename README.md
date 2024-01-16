@@ -33,9 +33,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run custom GitHub Action
-        uses: returngis/custom-github-action
+        uses: returngis/custom-github-action@main
         with:
-          name: 'Gisela Torres'
+          who-to-greet: 'Gisela Torres'
 ```
 
 You can see it in action in this repository's [workflow](.github/workflows/main.yml).
